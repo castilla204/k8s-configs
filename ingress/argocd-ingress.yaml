@@ -16,10 +16,10 @@ metadata:
 spec:
   tls:
     - hosts:
-        - argocd.atrapo.io
+        - argocd.inspecciono.com
       secretName: argocd-tls
   rules:
-    - host: argocd.atrapo.io
+    - host: argocd.inspecciono.com
       http:
         paths:
           - path: /
